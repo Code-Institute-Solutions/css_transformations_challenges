@@ -1,3 +1,17 @@
-img {
-	margin: 50px;
+img{
+    width:300px;
+    height:300px;
+    transition-property: width,height;
+    transition-timing-function: ease-in-out; 
+    transition-duration:1s;
+
+}
+
+
+img:hover{
+    width:600px;
+    height:600px; 
+    transition-property: width, height;
+    transition-duration:1s;
+    transition-timing-function:ease-in-out;
 }
